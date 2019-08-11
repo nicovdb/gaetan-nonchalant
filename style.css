@@ -1,0 +1,42 @@
+.cover {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("images/cover.png");
+  background-size: cover;
+  background-position: center;
+  color: #DFBC47;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+.icons {
+  display: flex;
+}
+
+.icons a {
+  color: #DFBC47;
+  font-size: 25px;
+}
+
+.icon a:hover {
+  font-size: 27px;
+  transition: 0.5s;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
