@@ -9,8 +9,9 @@ body {
 }
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
+
 h1 {
   color: #0075FF;
   font-weight: bold;
