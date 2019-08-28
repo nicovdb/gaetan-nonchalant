@@ -13,8 +13,11 @@ html {
 }
 
 h1 {
-  color: #0075FF;
+  color: white;
   font-weight: bold;
+  text-shadow: -1px 1px 0px #0075FF,
+              -2px 2px 0px #0075FF,
+              -3px 3px 0px #0075FF;
 }
 
 .cover {
@@ -42,6 +45,7 @@ h1 {
   color: #91BEEF;
   transition: 0.1s;
   text-decoration: none;
+  text-shadow: 0px 0px 10px rgba(50, 50, 50, 0.7);
 }
 
 .icon a:hover {
@@ -49,7 +53,8 @@ h1 {
 }
 
 .icon a:hover i {
-  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+  text-shadow: -1px 1px 0px rgba(50, 50, 50, 0.7),
+              -2px 2px 0px rgba(50, 50, 50, 0.7);
   transition: 0.2s;
 }
 
@@ -63,13 +68,13 @@ h1 {
 }
 
 .icon i {
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 5px;
   transition: 0.2s;
 }
 
 .icon span {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold
 }
 
