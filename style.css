@@ -49,7 +49,7 @@ h1 {
 }
 
 .icon a:hover i {
-  color: #0075FF;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
   transition: 0.2s;
 }
 
@@ -85,8 +85,16 @@ h1 {
 
 .face {
   width: 100%;
-  box-shadow: -2px 4px 20px rgba(50, 50, 50, 0.4);
-  border-radius: 3px;
+  box-shadow: -1px 1px 0px #0075FF,
+              -2px 2px 0px #0075FF,
+              -3px 3px 0px #0075FF,
+              -4px 4px 0px #0075FF,
+              -5px 5px 0px #0075FF,
+              -6px 6px 0px #0075FF,
+              -7px 7px 0px #0075FF,
+              -8px 8px 0px #0075FF,
+              -9px 9px 0px #0075FF;
+  border-radius: 0px;
 }
 
 .face-space {
