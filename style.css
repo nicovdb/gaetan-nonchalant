@@ -123,6 +123,29 @@ h1 {
   }
 }
 
+.links {
+  text-align: right;
+}
+
+.links i {
+    color: white;
+    text-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
+    margin-right: 5px;
+    transition: 0.1s;
+  }
+
+.links a {
+  color: rgba(50, 50, 50, 0.8);
+}
+
+.links a:hover i {
+  text-shadow: -1px 1px 8px rgba(50, 50, 50, 0.7);
+  transition: 0.1s;
+}
+
+.links p {
+  margin-bottom: 5px;
+}
 
 
 
