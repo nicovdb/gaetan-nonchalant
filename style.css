@@ -22,9 +22,16 @@ h1 {
 
 .cover {
   height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #91BEEF;
+  text-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
 }
 
 .cover img {
@@ -138,35 +145,5 @@ h1 {
 
 .links p {
   margin-bottom: 5px;
-}
-
-.section {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: #91BEEF;
-  text-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
-}
-
-.parallax::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateZ(-1px) scale(2);
-/*  background-size: 100%;*/
-  z-index: -1;
-  background-image: url("images/cover.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#bio-part {
-  background-color: #91BEEF;
 }
 
