@@ -26,12 +26,18 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url("images/cover.jpg");
+  background-image: url("images/face.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 44% 30%;
   background-attachment: fixed;
   color: #91BEEF;
-  text-shadow: 0px 0px 20px rgba(50, 50, 50, 0.5);
+  text-shadow: -3px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#listen {
+  background-image: url("images/cool-background.svg");
+  background-size: cover;
+  background-color: #C7E1F3;
 }
 
 .cover img {
@@ -42,15 +48,20 @@ h1 {
   display: flex;
 }
 
+.icon {
+  margin: 0 0.5rem;
+}
+
 .icons a {
-  color: #91BEEF;
+  color: rgba(255, 255, 255, 0.9);
   transition: 0.1s;
   text-decoration: none;
-  text-shadow: 0px 0px 10px rgba(50, 50, 50, 0.7);
+  text-shadow: -3px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .icon a:hover {
   text-decoration: none;
+  color: rgba(255, 255, 255, 1);
 }
 
 .icon a:hover i {
@@ -75,7 +86,7 @@ h1 {
 }
 
 .icon span {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold
 }
 
@@ -145,5 +156,17 @@ h1 {
 
 .links p {
   margin-bottom: 5px;
+}
+
+iframe {
+  box-shadow: -1px 1px 0px #0075FF,
+              -2px 2px 0px #0075FF,
+              -3px 3px 0px #0075FF,
+              -4px 4px 0px #0075FF,
+              -5px 5px 0px #0075FF,
+              -6px 6px 0px #0075FF,
+              -7px 7px 0px #0075FF,
+              -8px 8px 0px #0075FF,
+              -9px 9px 0px #0075FF;
 }
 
