@@ -5,7 +5,7 @@ p {
 
 body {
   background-color: #91BEEF;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 
 h1 {
   color: white;
-  font-weight: bold;
+  font-weight: 800;
   text-shadow: -1px 1px 0px #0075FF,
               -2px 2px 0px #0075FF,
               -3px 3px 0px #0075FF;
@@ -92,7 +92,7 @@ h1 {
 
 .icon span {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
