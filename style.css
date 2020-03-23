@@ -1,6 +1,6 @@
 p {
   font-size: 16px;
-  color: rgba(50, 50, 50, 0.8);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -15,6 +15,7 @@ html {
 h1 {
   color: white;
   font-weight: 800;
+  letter-spacing: 1px;
   text-shadow: -1px 1px 0px #0075FF,
               -2px 2px 0px #0075FF,
               -3px 3px 0px #0075FF;
@@ -54,9 +55,9 @@ h1 {
 
 .icons a {
   color: rgba(255, 255, 255, 0.9);
-  transition: 0.1s;
   text-decoration: none;
   text-shadow: -3px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
 }
 
 .icon a:hover {
@@ -64,15 +65,8 @@ h1 {
   color: rgba(255, 255, 255, 1);
 }
 
-.icon a:hover i {
-  /*text-shadow: -1px 1px 0px rgba(50, 50, 50, 0.7),
-              -2px 2px 0px rgba(50, 50, 50, 0.7);
-  transition: 0.2s;*/
-}
-
 .icon a:hover span {
   border-bottom: 2px solid rgba(255, 255, 255, 1);
-  transition: 0.1s;
 }
 
 .icon a {
@@ -87,7 +81,6 @@ h1 {
 .icon i {
   font-size: 30px;
   margin-bottom: 5px;
-  transition: 0.2s;
 }
 
 .icon span {
@@ -154,11 +147,6 @@ h1 {
 .links a {
   color: rgba(50, 50, 50, 0.8);
 }
-
-/*.links a:hover i {
-  text-shadow: -1px 1px 8px rgba(50, 50, 50, 0.7);
-  transition: 0.1s;
-}*/
 
 .links p {
   margin-bottom: 5px;
