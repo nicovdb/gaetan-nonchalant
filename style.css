@@ -28,7 +28,7 @@ h1 {
   flex-direction: column;
   background-image: url("images/face.jpg");
   background-size: cover;
-  background-position: 44% 30%;
+  background-position: center;
   background-attachment: fixed;
   color: #91BEEF;
   text-shadow: -3px 4px 6px rgba(0, 0, 0, 0.2);
