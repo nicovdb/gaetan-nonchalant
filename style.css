@@ -65,9 +65,14 @@ h1 {
 }
 
 .icon a:hover i {
-  text-shadow: -1px 1px 0px rgba(50, 50, 50, 0.7),
+  /*text-shadow: -1px 1px 0px rgba(50, 50, 50, 0.7),
               -2px 2px 0px rgba(50, 50, 50, 0.7);
-  transition: 0.2s;
+  transition: 0.2s;*/
+}
+
+.icon a:hover span {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  transition: 0.1s;
 }
 
 .icon a {
@@ -87,7 +92,8 @@ h1 {
 
 .icon span {
   font-size: 18px;
-  font-weight: bold
+  font-weight: bold;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 .name {
@@ -149,10 +155,10 @@ h1 {
   color: rgba(50, 50, 50, 0.8);
 }
 
-.links a:hover i {
+/*.links a:hover i {
   text-shadow: -1px 1px 8px rgba(50, 50, 50, 0.7);
   transition: 0.1s;
-}
+}*/
 
 .links p {
   margin-bottom: 5px;
