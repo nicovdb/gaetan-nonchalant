@@ -94,6 +94,13 @@ h1 {
   }
 }
 
+@media (min-width: 1000px) {
+  .py-5 {
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
+  }
+}
+
 .face {
   width: 100%;
   box-shadow: -1px 1px 0px #0075FF,
